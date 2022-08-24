@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/evento.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.cont{  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 50px;
+    border-radius: 100px;
+    background-color: rgba(1,11, 133, 0.4);
+    
+}
+.contChico{  
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 90px;
+    background-color: rgba(18, 20, 37, 0.9);
+}
+.contMasChico{  
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 70px;
+    background-color: rgba(9, 11, 27, 0.7);
+}
+#contCompra{  
+    width: 600px;
+    padding: 50px;
+    border-radius: 100px;
+    background-color: rgba(1,11, 133, 0.4);
+    text-align: center;
+    
+}
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+#botonIniciar{
+    font-size: 20px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
